@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "493478424775",
+    "firebase_url": "https://ensinodigital-f0f29.firebaseio.com",
+    "project_id": "ensinodigital-f0f29",
+    "storage_bucket": "ensinodigital-f0f29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493478424775:android:3ca5e30f24421730",
+        "android_client_info": {
+          "package_name": "com.projeto.ensinodigital.ensinodigital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493478424775-16r9c3esmitckku3i1v5v7e1sua60qff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projeto.ensinodigital.ensinodigital",
+            "certificate_hash": "17e8b154e4798afb869eca61b0d1802c9d69d7aa"
+          }
+        },
+        {
+          "client_id": "493478424775-b5p8f0qoljrde74mkn0u9l56goq7jm9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpAT_IxjxxicWqxME2I_DpFnHTZC5N9No"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493478424775-b5p8f0qoljrde74mkn0u9l56goq7jm9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
