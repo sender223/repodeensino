@@ -6,9 +6,7 @@
     <CalendarView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/calendarioAnotacoesId"
-        android:datePicker="true"
-        android:headerColor="@color/colorPrimary"/>
+        android:id="@+id/calendarioAnotacoesId" />
 
     <EditText
         android:id="@+id/textoEdicaoId"

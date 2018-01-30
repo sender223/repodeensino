@@ -1,5 +1,6 @@
 package com.projeto.ensinodigital.ensinodigital.Activitys;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -71,7 +72,9 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
+            Intent intentAgenda = new Intent(MainActivity.this, ActivityAnotacoes.class);
+            startActivity(intentAgenda);
+
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {

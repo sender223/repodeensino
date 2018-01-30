@@ -10,8 +10,6 @@
         android:layout_margin="8dp"
         android:hint="nenhuma anotacao"
         android:textSize="24sp"
-        android:layout_constraintLeft_toLeftOf="parent"
-        android:layout_constraintRight_toRightOf="parent"
-        android:layout_constraintTop_toTopOf="parent" />
+        />
 
 </LinearLayout>
