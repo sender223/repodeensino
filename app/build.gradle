@@ -32,6 +32,8 @@ dependencies {
 
     testCompile 'junit:junit:4.12'
 
-    compile 'com.github.sundeepk:compact-calendar-view:2.0.3-beta'
+    compile 'com.applandeo:material-calendar-view:1.0.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support.constraint:constraint-layout:1.0.1'
 }
 apply plugin: 'com.google.gms.google-services'

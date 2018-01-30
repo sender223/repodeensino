@@ -29,6 +29,7 @@ public class ConteudoPrincipal extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intentAgenda = new Intent(ConteudoPrincipal.this, AgendaActivity.class);
                 startActivity(intentAgenda);
+                finish();
 
             }
         });
