@@ -33,5 +33,5 @@ public class DecoradorEventos implements DayViewDecorator {
     }
 }
 
-    Collection<CalendarDay> colldates; colldates = new HashSet<>(); CalendarDay eventDay2 = CalendarDay.from(2017, 07, 18); colldates.add(eventDay2); materialCalendarView.addDecorator(new EventDecorator(colldates, "Nokas")); **Alterei a Classe EventDecorator o método decorate ** view.addSpan(new String(n));
+
 
