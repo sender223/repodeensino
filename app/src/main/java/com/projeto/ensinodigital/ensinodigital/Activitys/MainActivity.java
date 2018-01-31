@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            Intent intentAgenda = new Intent(MainActivity.this, ActivityAnotacoes.class);
+            Intent intentAgenda = new Intent(MainActivity.this, CalendarioActivity.class);
             startActivity(intentAgenda);
 
         } else if (id == R.id.nav_gallery) {

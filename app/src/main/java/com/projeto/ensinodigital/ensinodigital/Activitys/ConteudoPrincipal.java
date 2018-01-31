@@ -27,7 +27,7 @@ public class ConteudoPrincipal extends AppCompatActivity {
         agenda.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentAgenda = new Intent(ConteudoPrincipal.this, AgendaActivity.class);
+                Intent intentAgenda = new Intent(ConteudoPrincipal.this,CalendarioActivity.class);
                 startActivity(intentAgenda);
                 finish();
 

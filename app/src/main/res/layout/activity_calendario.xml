@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarioID"
+        android:layout_width="match_parent"
+        android:layout_height="272dp"
+        app:mcv_selectionColor="#00F"
+        app:mcv_showOtherDates="all" />
+
+    <TextView
+        android:id="@+id/show_anotacoes"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:hint="Agenda do dia"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RelativeLayout
+        android:id="@+id/fr_container_id"
+        android:layout_width="match_parent"
+        android:layout_height="132dp">
+
+    </RelativeLayout>
+
+
+</LinearLayout>

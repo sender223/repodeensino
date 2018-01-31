@@ -33,7 +33,8 @@
         <activity android:name=".Activitys.CadastroActivity" />
         <activity android:name=".Activitys.AgendaActivity" />
         <activity android:name=".Activitys.ActivityAnotacoes" />
-        <activity android:name=".Activitys.PreviaAnotacoesActivity"></activity>
+        <activity android:name=".Activitys.PreviaAnotacoesActivity" />
+        <activity android:name=".Activitys.CalendarioActivity"></activity>
     </application>
 
 </manifest>

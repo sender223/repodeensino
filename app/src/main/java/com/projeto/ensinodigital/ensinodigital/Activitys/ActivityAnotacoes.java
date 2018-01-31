@@ -18,19 +18,6 @@ public class ActivityAnotacoes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_anotacoes);
-        final CalendarView datePicker = (CalendarView) findViewById(R.id.calendarioAnotacoesId);
-        Button button = (Button) findViewById(R.id.salvarAnotacoes);
-        final EditText noteEditText = (EditText) findViewById(R.id.textoEdicaoId);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent returnIntent = new Intent();
-                MyEventDay myEventDay = new MyEventDay(datePicker.getSelectedDate(),
-                        R.drawable.ic_message_black_48dp, noteEditText.getText().toString());
-                returnIntent.putExtra(MainActivity.RESULT, myEventDay);
-                setResult(Activity.RESULT_OK, returnIntent);
-                finish();
-            }
-        });
+
     }
 }
