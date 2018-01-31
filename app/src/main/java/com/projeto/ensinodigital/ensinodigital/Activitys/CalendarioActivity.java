@@ -37,7 +37,7 @@ public class CalendarioActivity extends AppCompatActivity {
                 .setCalendarDisplayMode(CalendarMode.MONTHS)
                 .commit();
 
-        calendarView.setDateTextAppearance();
+        
 
         calendarView.setOnDateChangedListener(new OnDateSelectedListener() {
             @Override
